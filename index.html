@@ -5,21 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студия</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
-    <header>
+    <header class="header">
       <nav>
-        <a class="logo" href="/"> <span class="logo-accent">Web</span>Studio </a>
+        <a class="logo list" href="/"> <span class="logo-accent">Web</span>Studio </a>
         <ul class="site-nav list">
-          <li><a class="link current" href="./index.html">Студия</a></li>
-          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link" href="">Контакты</a></li>
+          <li><a class="link current list" href="./index.html">Студия</a></li>
+          <li><a class="link list" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="link list" href="">Контакты</a></li>
         </ul>
       </nav>
       <ul class="contacts list">
-        <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a class="contacts-link list" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li><a class="contacts-link list" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
@@ -30,13 +38,13 @@
       </section>
       <!--Benefits-->
       <section class="section">
-        <!--Використала заголовок h2 (хоча його немає в макеті, але по змісту він там має бути)
-            потім його приберу через css-->
-        <h2 class="section-title">Преимущества</h2>
+        <h2 class="section-title visually-hidden">Преимущества</h2>
         <ul class="benefits list">
           <li>
             <h3 class="title">Внимание к деталям</h3>
-            <p class="descr">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <p class="descr">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
           </li>
           <li>
             <h3 class="title">Пунктуальность</h3>
@@ -52,7 +60,9 @@
           </li>
           <li>
             <h3 class="title">Современные технологии</h3>
-            <p class="descr">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <p class="descr">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
           </li>
         </ul>
       </section>
@@ -72,7 +82,7 @@
         </ul>
       </section>
       <!--Our team-->
-      <section class="section">
+      <section class="section team">
         <h2 class="section-title">Наша команда</h2>
         <ul class="team list">
           <li>
@@ -99,11 +109,12 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="logo" href="/"> <span class="logo-accent">Web</span>Studio </a>
+      <a class="logo list" href="/"> <span class="logo-accent">Web</span>Studio </a>
       <address>
         <ul class="footer-contacts list">
           <li>
-            <a class="adress link"
+            <a
+              class="adress link list"
               href="https://goo.gl/maps/jDWuq8aFFan7bfQi6"
               target="_blank"
               rel="noopener noreferrer"
@@ -112,10 +123,10 @@
             </a>
           </li>
           <li>
-            <a class="contacts-link" href="mailto:info@example.com">info@example.com</a>
+            <a class="contacts-link list" href="mailto:info@example.com">info@example.com</a>
           </li>
           <li>
-            <a class="contacts-link" href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="contacts-link list" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
